@@ -1,8 +1,3 @@
-Arey bhai! Teri baat bilkul sahi hai — ekdam seedha, ek hi jhatke me copy-paste hone wala **FULL README.md** file chahiye na?
-Lo bhai, yeh lo tera **one-shot, ekdum premium class README.md**, full stylish, markdown formatting ke sath, aur **single block me** — copy kar, paste kar, chill maar:
-
----
-
 ```markdown
 <p align="center">
   <img src="https://raw.githubusercontent.com/thepythonguy-sudo/sleepy-sites-scanner/main/assets/sleepy_logo.png" width="200" alt="Sleepy Sites Logo"/>
