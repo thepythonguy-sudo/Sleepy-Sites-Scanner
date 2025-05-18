@@ -1,20 +1,15 @@
-```markdown
-<p align="center">
-  <img src="https://raw.githubusercontent.com/thepythonguy-sudo/sleepy-sites-scanner/main/assets/sleepy_logo.png" width="200" alt="Sleepy Sites Logo"/>
-</p>
 
-<h1 align="center">😴 Sleepy Sites Scanner</h1>
 
-<p align="center">
-  <i>Shhh... kuch websites ab so chuki hain — aur ye tool unhe dhoond nikaalega 💡</i>
-</p>
+![Sleepy Sites Scanner Logo](https://raw.githubusercontent.com/thepythonguy-sudo/sleepy-sites-scanner/main/assets/sleepy_logo.png)
 
-<p align="center">
-  <img src="https://img.shields.io/github/stars/thepythonguy-sudo/sleepy-sites-scanner?style=flat-square">
-  <img src="https://img.shields.io/github/forks/thepythonguy-sudo/sleepy-sites-scanner?style=flat-square">
-  <img src="https://img.shields.io/github/issues/thepythonguy-sudo/sleepy-sites-scanner?style=flat-square">
-  <img src="https://img.shields.io/github/license/thepythonguy-sudo/sleepy-sites-scanner?style=flat-square">
-</p>
+# 😴 Sleepy Sites Scanner
+
+*Shhh... kuch websites ab so chuki hain — aur ye tool unhe dhoond nikaalega 💡*
+
+![Stars](https://img.shields.io/github/stars/thepythonguy-sudo/sleepy-sites-scanner?style=flat-square)
+![Forks](https://img.shields.io/github/forks/thepythonguy-sudo/sleepy-sites-scanner?style=flat-square)
+![Issues](https://img.shields.io/github/issues/thepythonguy-sudo/sleepy-sites-scanner?style=flat-square)
+![License](https://img.shields.io/github/license/thepythonguy-sudo/sleepy-sites-scanner?style=flat-square)
 
 ---
 
@@ -22,7 +17,7 @@
 
 **Sleepy Sites Scanner** ek Python based web scraping tool hai jo internet ke kone kone me soyi hui websites ko dhoondta hai — yaani aise sites jo kabhi update hi nahi hoti.
 
-Use cases:
+**Use cases:**
 - Broken or dormant website detection
 - Domain flipping & acquisition research
 - Internet archives ke liye content tracking
@@ -45,18 +40,15 @@ Use cases:
 ```
 
 sleepy-sites-scanner/
-│
-├── assets/                  # Logos, images etc.
-│
+├── assets/
+│   └── sleepy\_logo.png
 ├── data/
-│   ├── urls.txt             # Your list of websites to scan
-│   └── results.csv          # Output after scanning
-│
+│   ├── urls.txt
+│   └── results.csv
 ├── src/
-│   └── sleepy\_scanner.py    # The main engine
-│
-├── requirements.txt         # Python dependencies
-└── README.md                # You're reading it!
+│   └── sleepy\_scanner.py
+├── requirements.txt
+└── README.md
 
 ````
 
@@ -76,7 +68,7 @@ pip install -r requirements.txt
 
 1. **Prepare your URLs**
 
-`data/urls.txt` me har line pe ek URL likh do:
+`data/urls.txt` me har line pe ek URL likho:
 
 ```
 https://example.com
@@ -91,15 +83,7 @@ python3 src/sleepy_scanner.py
 
 3. **Check Results**
 
-`data/results.csv` me aayega sab kuch — status, titles, last modified etc.
-
----
-
-## 📸 Screenshots
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/thepythonguy-sudo/sleepy-sites-scanner/main/assets/demo_result.png" width="700" alt="Output Screenshot"/>
-</p>
+`data/results.csv` me milenge sare results — status, title, timestamp etc.
 
 ---
 
@@ -109,36 +93,30 @@ python3 src/sleepy_scanner.py
 * BeautifulSoup
 * Requests
 * CSV Module
-* Your brain 🧠
-
----
-
-## 👑 Creator
-
-Made with 💙 by [thepythonguy-sudo](https://github.com/thepythonguy-sudo)
 
 ---
 
 ## 🧨 Future Plans
 
-* Add Selenium support for JavaScript-heavy pages
-* GitHub Actions for auto-checking sites weekly
-* Live dashboard for monitoring scanned sites
-* Docker support
+* [ ] Selenium integration for JS-heavy pages
+* [ ] Auto-scan on GitHub Actions
+* [ ] Web dashboard to monitor status
+* [ ] Docker support
+
+---
+
+## 👑 Author
+
+Made with 💙 by [thepythonguy-sudo](https://github.com/thepythonguy-sudo)
+*“Internet ke kabristan me ghus ke soney waali sites ko jagana mera kaam hai!”*
 
 ---
 
 ## 📜 License
 
-MIT — use it, fork it, star it, break it — just give credit 🙏
+MIT — use it, break it, fork it — just give credit 🙏
 
----
-
-<p align="center">
-  <strong>✨ Sleepy Sites Scanner ✨</strong><br>
-  <i>"Internet ke kabristan me ghus ke soney waali sites ko jagana mera kaam hai!"</i>
-</p>
-```
+````
 
 ---
 
